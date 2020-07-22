@@ -21,6 +21,7 @@ model.getContainmentPercentage(); // Get the containmentPercentage between the i
 ```
 
 <h5>NinjaIntersectionFactory must and optional arguments</h5>
+
 * List<Geometry> geometriesA (Must) - list of geometries to intersect.
 * List<Geometry> geometriesB (Must) - list of geometries to intersect.
 * double minContainmentPercentage (Optional, default 0) - The minimum containment percentage between intersection and the bigger geometry.
