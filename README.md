@@ -16,11 +16,12 @@ List<IntersectionModel> intersections = intersectionService.getIntersections();
 IntersectionModel model = intersections.get(0);
 model.getGeometryA(); // Get the first Geometry.
 model.getGeometryB(); // Get the second Geometry.
-model.getIntersections(); // Get the intersection between first and second geometries.
+model.getIntersection(); // Get the intersection between first and second geometries.
 model.getContainmentPercentage(); // Get the containmentPercentage between the intersection and the bigger geometry.
 ```
 
 <h5>NinjaIntersectionFactory must and optional arguments</h5>
+
 * List<Geometry> geometriesA (Must) - list of geometries to intersect.
 * List<Geometry> geometriesB (Must) - list of geometries to intersect.
 * double minContainmentPercentage (Optional, default 0) - The minimum containment percentage between intersection and the bigger geometry.
