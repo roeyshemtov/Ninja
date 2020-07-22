@@ -16,7 +16,7 @@ List<IntersectionModel> intersections = intersectionService.getIntersections();
 IntersectionModel model = intersections.get(0);
 model.getGeometryA(); // Get the first Geometry.
 model.getGeometryB(); // Get the second Geometry.
-model.getIntersections(); // Get the intersection between first and second geometries.
+model.getIntersection(); // Get the intersection between first and second geometries.
 model.getContainmentPercentage(); // Get the containmentPercentage between the intersection and the bigger geometry.
 ```
 
